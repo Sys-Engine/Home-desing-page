@@ -10,9 +10,22 @@
             font-family: "Airbnb cereal APP";
             src: url("/fonts/AirbnbCereal_W_Bd.otf");
         }
+        @font-face {
+            font-family:"Airbnb midium";
+            src: url("/fonts/AirbnbCereal_W_Md.otf");
+        }
 
         @font-face {
-            font-family: "Avenir ";
+            font-family:"Airbnb small";
+            src: url("/fonts/AirbnbCereal_W_Lt.otf");
+        }
+        @font-face {
+            font-family:"Airbnb xsamll";
+            src: url("/fonts/AirbnbCereal_W_Md.otf");
+        }
+
+        @font-face {
+            font-family: "Avenir";
             src: url("/fonts/AvenirLTStd-Light.otf");
         }
 
@@ -87,7 +100,7 @@
 
         .first-heading h2 {
             width: 545px;
-            font-family: "Airbnb Cereal App";
+            font-family:"Airbnb midium";
             font-size: 20px;
             margin: 0;
             height: 60px;
@@ -107,8 +120,7 @@
         }
 
         .button h3 {
-            width: 205px;
-            font-family: "Airbnb Cereal App";
+            font-family:"Airbnb small";
             font-size: 16px;
             font-weight: 700;
             line-height: 20.83px;
@@ -131,9 +143,9 @@
         }
 
         #second-first h3 {
-            max-width: 452px;
+            max-width: 445px;
             height: 79px;
-            font-family: "Airbnb Cereal App";
+            font-family: "Airbnb midium";
             font-size: 26px;
             font-weight: 500;
             line-height: 39px;
@@ -175,7 +187,7 @@
         #second-box h4 {
             width: 233px;
             height: 42px;
-            font-family: "Airbnb Cereal App";
+            font-family: "Airbnb small";
             font-size: 16px;
             font-weight: 400;
             line-height: 20.83px;
@@ -192,36 +204,85 @@
 
         .forth {
           max-width: 1440px;
-            border: 1px solid red;
+            display: flex;
+            gap: 24px;
+            padding-left: 115px;
+            margin-top: 54px;
         }
         #first-box {
-            width: 365px;
-height: 270px;
+            max-width: 336px;
 border-radius: 10px ;
 background: #FFFFFF;
 border: 2px solid #5CCAAB;
 box-shadow: 0px 4px 44px 0px #0E15321A;
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 52px 20px 20px 25px;
         }
         #first-box h5 {
-            width: 315.25px;
+max-width: 315.25px;
 height: 26px;
+margin: 0;
 font-family: "Airbnb Cereal App";
 font-size: 22px;
 font-weight: 800;
 line-height: 26.4px;
 text-align: left;
 color: #3E8180;
+margin-top: 53px;
+margin-bottom: 10px;
         }
-        .first-box-p p {
-            width: 315px;
-height: 91px;
-font-family: "Airbnb Cereal App";
+        #first-box p {
+            max-width: 315px;
+height: 75px;
+margin: 0;
+font-family: "Airbnb small";
 font-size: 16px;
-font-weight: 400;
+font-weight: 600;
 line-height: 24px;
 letter-spacing: 0.0041em;
 text-align: left;
 color: #0E1532;
+        }
+
+        #third-box {
+            max-width: 336px;
+border-radius: 10px ;
+background: #FFFFFF;
+box-shadow: 0px 4px 44px 0px #0E15321A;
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 52px 20px 29px 36px;
+        }
+        #third-box h5 {
+max-width: 315.25px;
+height: 26px;
+margin: 0;
+font-family: "Airbnb Cereal App";
+font-size: 22px;
+font-weight: 800;
+line-height: 26.4px;
+text-align: left;
+color: #3E8180;
+margin-top: 53px;
+margin-bottom: 10px;
+        }
+        #third-box p {
+            max-width: 315px;
+height: 75px;
+margin: 0;
+font-family: "Airbnb small";
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.0041em;
+text-align: left;
+color: #0E1532;
+        }
+        .small-house{
+            margin-left: 72px;
         }
     </style>
 </head>
@@ -264,12 +325,19 @@ height:19px; cursor: pointer;">
             <!-- forth-part -->
             <div class="forth">
                 <div id="first-box">
-<img src="/images/Group 20280.png" alt="">
+<img src="/images/Group 20280.png" alt="" style="width: 38px;
+height: 44px;">
 <h5>Get your time back</h5>
-<div class="first-box-p">
-    <p>Spend time with family, not searching dozens of listing sites. freshbuilds has all the new construction homes in one place.</p>
-</div>
+<p>Spend time with family, not searching dozens of listing sites. freshbuilds has all the new construction homes in one place.</p>
                 </div>
+                <div id="third-box">
+                    <img src="/images/Group 20284.png" alt="" style="width: 38px;
+                    height: 44px;">
+                    <h5>Be a know-it-all</h5>
+                    <p>We monitor local construction activity and send you alerts when a new home with your criteria is ready for its new owners.</p>
+                                    </div>
+                                    <img class="small-house" src="/images/Group 20954.png" alt="">
+
             </div>
 
         </div>
