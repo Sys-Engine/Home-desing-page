@@ -396,7 +396,7 @@ margin-bottom: 37px;
         }
         #seven-child{
             max-width: 971px;
-            height: 205px;
+            height: auto;
       display: flex;
       flex-wrap: wrap;
       gap: 35px;
@@ -448,9 +448,13 @@ color: #322C4E;
         max-width: 1440px;
     }
     .eight-para{
-        max-width: 1247px;
+        max-width: 1242px;
         height: 330px;
-        padding-left: 127px;
+        display: flex;
+flex-wrap: wrap;
+margin-top: 63px;
+justify-content: space-between;
+        padding-left: 124px;
         /* border: 1px solid red; */
     }
     .ten-para {
@@ -487,19 +491,26 @@ text-align: center;
 }
 #eleven-para {
 max-width: 884px;
-/* height: 159px; */
-border: 1px solid red;
+/* border: 1px solid red; */
 display: flex;
 flex-wrap: wrap;
 gap: 23px;
+margin-top: 40px;
 }
 #eleven-box{
     width: 279px;
 height: 100px;
+
 display: flex;
 border-radius: 10px ;
 background: #FFFFFF;
 box-shadow: 0px 3px 30px 0px #2D27471A;
+}
+.next-box {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
 }
 .twelve-box {
     max-width: 201px;
@@ -508,7 +519,7 @@ margin: auto;
 display: flex;
 gap: 12px;
 align-items: center;
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 .twelve-box h2{
 height: 21px;
@@ -519,6 +530,65 @@ font-weight: 500;
 line-height: 20.83px;
 text-align: left;
 color: #322C4E;
+}
+#forth-button {
+    max-width: 205px;
+height: 55px;
+border-radius: 5px ;
+display: flex;
+justify-content: center;
+background-color: #E87F3F;
+}
+#forth-button h6 {
+    max-width: 205px;
+height: 20px;
+font-family: "Airbnb small";
+font-size: 16px;
+font-weight: 700;
+margin: auto;
+line-height: 20.83px;
+text-align: center;
+color: #FFFFFF;
+}
+#eight{
+    max-width: 1440px;
+    height: 478px;
+    background-color: #ffffff;
+}
+.eight-ten{
+    max-width: 636px;
+height: 306px;
+border: 1px solid hotpink;
+}
+.eight-ten h1 {
+    max-width: 536px;
+height: 39px;
+font-family: "Airbnb midium";
+font-size: 26px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0.0041em;
+text-align: left;
+color: #322C4E;
+margin-top: 0;
+}
+#eight span {
+    font-family: "Avenir";
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0.0041em;
+    text-align: left;
+    color: #3E8180;
+}
+#eight .build {
+    font-family: "Avenir";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.0041em;
+    text-align: left;
+    color: #3E8180;
 }
         
     </style>
@@ -626,59 +696,77 @@ height: 467px;">
 </div>
 </div>
 </div>
-<div id="eigth">
-    <div class="eight-para">
-    <div class="ten-para">
-        <h1>Whatever kind of new home you’re looking for, 
-            you’ll find it on <span>fresh</span><span id="builds">builds</span>.</h1>
-        </div>
-        <div id="eleven-para">
-            <div id="eleven-box">
-<div class="twelve-box">
-<img src="/images/Group 20293.png" alt="">
-<h2>Condos</h2>
+
+<!--  -->
+
+<div id="eight">
+<div class="eight-ten">
+<h1>Have any questions about <span>fresh</span><span class="build">builds</span>?</h1>
 </div>
-            </div>
-
-            <div id="eleven-box">
-                <div class="twelve-box">
-                    <img src="/images/Group 20293.png" alt="">
-                    <h2>Townhomes</h2>
-                    </div>
-            </div>
-
-            <div id="eleven-box">
-                <div class="twelve-box">
-                    <img src="/images/Group 20293.png" alt="">
-                    <h2>Luxury Homes</h2>
-                    </div>
-            </div>
-
-            <div id="eleven-box">
-                <div class="twelve-box">
-                    <img src="/images/Group 20293.png" alt="">
-                    <h2>55+ Community Homes</h2>
-                    </div>
-            </div>
-
-            <div id="eleven-box">
-                <div class="twelve-box">
-                    <img src="/images/Group 20293.png" alt="">
-                    <h2>Quick Move-In Homes</h2>
-                    </div>
-            </div>
-
-            <div id="eleven-box">
-                <div class="twelve-box">
-                    <img src="/images/Group 20293.png" alt="">
-                    <h2>Ready To Build Land</h2>
-                    </div>
-            </div>
-
-
-        </div>
-    </div>
 </div>
 
 </body>
 </html>
+<!-- <div class="eight-para">
+    <div class="ten-para">
+        <h1>Whatever kind of new home you’re looking for, 
+                you’ll find it on <span>fresh</span><span id="builds">builds</span>.</h1>
+            </div>
+            <div id="eleven-para">
+                <div id="eleven-box">
+    <div class="twelve-box">
+    <img src="/images/Group 20293.png" alt="">
+    <h2>Condos</h2>
+    </div>
+                </div>
+                <div id="eleven-box">
+                    <div class="twelve-box">
+                        <img src="/images/Group 20296.png" alt="">
+                        <h2>Townhomes</h2>
+                        </div>
+                </div>
+                <div id="eleven-box">
+                    <div class="twelve-box">
+                        <img src="/images/Group 20302.png" alt="">
+                        <h2>Luxury Homes</h2>
+                        </div>
+                </div>
+                <div id="eleven-box">
+                    <div class="twelve-box">
+                        <img src="/images/Group 20293.png" alt="">
+                        <h2>55+ Community Homes</h2>
+                        </div>
+                </div>
+                <div id="eleven-box">
+                    <div class="twelve-box">
+                        <img src="/images/Group 20307.png" alt="">
+                        <h2>Quick Move-In Homes</h2>
+                        </div>
+                </div>
+                <div id="eleven-box">
+                    <div class="twelve-box">
+                        <img src="/images/path1108.png" alt="">
+                        <h2>Ready To Build Land</h2>
+                        </div>
+                </div>
+            </div>
+                <div class="next-box">
+                    <div id="eleven-box">
+                        <div class="twelve-box">
+                    <img src="/images/Group 2005.png" alt="">
+                    <h2>Single Family Homes</h2>
+                </div>
+            </div>
+                <div id="eleven-box">
+                    <div class="twelve-box">
+                        <img src="/images/Group 2005.png" alt="">
+                        <h2>Single Family Homes</h2>
+                    </div>
+                </div>
+            </div>
+            
+    <div id="forth-button">
+        <h6>Search freshbuilds</h6>
+    </div>
+    </div> 
+    </div> -->
