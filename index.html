@@ -25,18 +25,24 @@
     padding-left: 42px !important;
 }
 }
+.first-heading h1 {
+    padding-left: 1px;
+    padding-right: 7px;
+}
         @media screen and (max-width: 1080px) { 
 .second-image {
     margin-top: 69px !important;
+    display: none;
 }
 .house {
-    width: 300px!important;
+    max-width: 300px !important;
 }
+
 .first-heading {
     max-width: 714px !important;
 }
 .second{
-    margin-top: 31px !important;
+    margin-top: 56px !important;
 }
 #second-first {
     padding-right: 43px !important;
@@ -83,6 +89,34 @@ justify-content: center;
 }
 
         }
+        @media screen and (max-width: 1011px) {
+            .house {
+                display: none !important;   
+            }
+            .second {
+                margin-top: 55px !important;
+                padding-left: 26px !important;
+                justify-content: center !important;
+            }
+        }
+        .hearder-part-second {
+            justify-content: center;
+        }
+        @media screen and (max-width: 906px) {  
+#eight {
+    flex-wrap: wrap;
+    height: auto !important;
+    justify-content: center;
+}
+.second-para{
+    margin-top: 0px !important;
+}
+        }
+        @media screen and (max-width: 560px) {
+
+            
+        }
+       
 
         @font-face {
             font-family: "Airbnb cereal APP";
@@ -213,6 +247,7 @@ justify-content: center;
         .second {
             max-width: 1440px;
             display: flex;
+            flex-wrap: wrap;
             padding-right: 75px;
             margin-top: 5px;
             justify-content: flex-end;
@@ -689,7 +724,6 @@ justify-content: center;
 
         .eight-ten h1 {
             max-width: 536px;
-            height: 39px;
             font-family: "Airbnb midium";
             font-size: 26px;
             font-weight: 500;
@@ -892,7 +926,7 @@ justify-content: center;
         }
 
         .finish h3 {
-            width: 248px;
+    max-width: 248px;
             height: 18px;
             margin: 0;
             font-family: "Airbnb small";
