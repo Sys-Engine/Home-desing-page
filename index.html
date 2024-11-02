@@ -8,11 +8,20 @@
     <style>
  @media screen and (max-width: 1230px) {
     #seven {
-        padding-left: 41px !important ;
+        padding: 0 10px 0 10px;
         max-width: 100% !important;
         overflow: hidden;
     }
  }
+ @media screen and (max-width: 1115px) {
+    .small-house {
+        bottom: 0 !important;
+    }
+    .fifth {
+        margin-top: 20px !important;
+    }
+}
+ 
  @media screen and (max-width: 1372px) {
     .next-box {
  display: none !important ;  
@@ -42,7 +51,7 @@
     margin-top: 15px !important;
 }
 #second-first {
-    padding-right: 43px !important;
+    padding: 0px !important;
 }
 #six {
     padding: 0 !important;
@@ -62,7 +71,8 @@ text-align: left;
     padding: 0 12px 0 12px !important ;
 }
 .second-para {
-    padding-left: 42px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 .six-first-para {
     padding-right: 4px !important;
@@ -101,11 +111,18 @@ justify-content: center;
             }
             .second {
                 margin-top: 55px !important;
-                padding-left: 26px !important;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
                 justify-content: center !important;
             }
             .hearder-part-second {
                 justify-content: center;
+            }
+            .eight-para {
+                max-width: 100%  !important;
+                padding-left: 10px !important;
+                padding-right: 10px;
+
             }
         }
         @media screen and (max-width: 906px) {  
@@ -114,8 +131,15 @@ justify-content: center;
     height: auto !important;
     justify-content: center;
 }
+.forth {
+    padding-left: 11px;
+    padding-right: 11px;
+}
 .second-para{
     margin-top: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .second-image {
     display: none ;
@@ -129,18 +153,24 @@ justify-content: center;
 }
 .first-heading {
     margin-top: 0px !important;
+    padding: 0 10px 0 10px;
 }
+
         }
         @media screen and (max-width: 560px) {
           .eight-para h1 {
             font-size: 19px !important;
           }
+          .first-heading h1 {
+align-content: center;
+            margin-top: 21px !important;
+          }
+
           .eight-para h1 {
 font-size: 19px !important;
 line-height: 33px !important;
           }
 .first-heading h1 {
-    margin-top: 0px !important;
     line-height: 37.4px !important;
     font-size: 29px !important;
 }
@@ -180,9 +210,7 @@ margin-bottom: 20px !important;
     #second-lines h3 {
         font-size: 14px !important;
     }
-.second {
-    padding: 0px !important ;
-}
+
 .eight-ten h1 {
     font-size: 24px !important;
 }
@@ -225,8 +253,15 @@ height: auto !important;
 .last-cont {
     gap: 14px !important;
 }
+.eight-para #builds {
+ font-size: 24px !important;
+}
+.ten-para span {
+    font-size: 22px !important;
+}
 .finish {
-    padding-left: 25px !important;
+    padding-left: 19px !important;
+    padding-right: 16px !important;
     padding-bottom: 19px !important;
     }
     .finish img {
@@ -289,11 +324,12 @@ height: auto !important;
         body {
             padding: 0;
             margin: 0;
+            /* background-color: #f1f1f1; */
         }
 
         .maincontainer {
             max-width: 1440px;
-            height: 3631px;
+            height: 3627px;
             margin: auto;
             background: #f1f1f1;
         }
@@ -320,8 +356,8 @@ height: auto !important;
             font-weight: 700;
             line-height: 20.83px;
             text-align: center;
-            color: #322C4E;
             cursor: pointer;
+            color: #322C4E;
         }
 
         .hearder-part-second {
@@ -347,12 +383,13 @@ height: auto !important;
             font-family: "Airbnb Cereal App";
             font-size: 42px;
             font-weight: 800;
+            cursor: pointer;
             line-height: 50.4px;
             text-align: center;
             color: #3E8180;
             margin-top: 53px;
             margin-bottom: 0;
-            cursor: default;
+        
         }
 
         .first-heading h2 {
@@ -366,6 +403,22 @@ height: auto !important;
             text-align: center;
             color: #322C4E;
             cursor: pointer;
+        }
+        .first-heading span {
+            font-family: "Avenir";
+font-size: 24px;
+font-weight: 400;
+line-height: 32.78px;
+text-align: left;
+
+        }
+        .first-heading b {
+            font-family: "Avenir";
+font-size: 24px;
+font-weight: bolder;
+line-height: 32.78px;
+text-align: left;
+
         }
 
         .button {
@@ -391,7 +444,7 @@ height: auto !important;
             max-width: 1440px;
             display: flex;
             flex-wrap: wrap;
-            padding-right: 75px;
+            padding-right: 72px;
             margin-top: 5px;
             justify-content: flex-end;
         }
@@ -399,7 +452,7 @@ height: auto !important;
         #second-first {
             max-width: 540px;
             margin-top: 12px;
-            padding-right: 125px;
+            padding-right: 73px;
         }
 
         #second-first h3 {
@@ -566,6 +619,7 @@ border: 2px solid #5CCAAB;
             margin-left: 61px;
             position: relative;
             bottom: 30px;
+            height: 234px;
             object-fit: contain;
         }
 
@@ -691,7 +745,8 @@ border: 2px solid #5CCAAB;
 
         #seven {
             max-width: 1440px;
-            padding-left: 244px;
+            display: flex;
+            justify-content: center;
         }
 
         #seven-child {
@@ -787,14 +842,14 @@ border: 2px solid #5CCAAB;
             text-align: center;
         }
 
-        #eigth span {
+        .ten-para span {
             font-family: "Avenir";
             font-size: 26px;
             font-weight: 800;
             line-height: 39px;
             letter-spacing: 0.0041em;
             text-align: left;
-            color: #3E8180;
+            color: #408382;
         }
 
         .eight-para #builds {
@@ -879,12 +934,12 @@ border: 2px solid #5CCAAB;
 
         #eight {
             max-width: 1440px;
-            height: 553px;
+            height: 487px;
             background-color: #ffffff;
             display: flex;
             /* flex-wrap: wrap; */
             align-items: center;
-            padding-left: 216px;
+          justify-content: center;
         }
 
         .eight-ten {
@@ -904,7 +959,7 @@ border: 2px solid #5CCAAB;
             letter-spacing: 0.0041em;
             text-align: left;
             color: #322C4E;
-            margin-bottom: 6px;
+            margin-bottom: 9px;
             margin-top: 0;
         }
 
@@ -931,7 +986,7 @@ border: 2px solid #5CCAAB;
         #first-line {
             max-width: 636px;
             height: 22px;
-            margin-bottom: 20px;
+            margin-bottom: 18px;
             /* border: 1px solid red;s */
             display: flex;
             justify-content: space-between;
@@ -958,9 +1013,9 @@ border: 2px solid #5CCAAB;
 
         #second-lines {
             max-width: 636px;
-            height: 24px;
-            margin-top: 15px;
-            margin-bottom: 20px;
+            /* height: 24px; */
+            margin-top: 14px;
+            margin-bottom: 18px;
             /* border: 1px solid red;s */
             display: flex;
             justify-content: space-between;
@@ -980,7 +1035,7 @@ border: 2px solid #5CCAAB;
         }
 
         .faq-house {
-            max-width: 451px;
+            max-width: 420px;
         }
 
         footer {
@@ -1355,7 +1410,7 @@ height:19px; cursor: pointer;">
                 <div class="first-heading">
                     <h1>Discover New Construction Homes
                         Before They Hit The Market</h1>
-                    <h2>From move-in-ready to custom homes,<span>fresh</span><b>builds</b> is the modern way to find + buy a new
+                    <h2>From move-in-ready to custom homes, <span>fresh</span><b>builds</b> is the modern way to find + buy a new
                         construction house.</h2>
                     <div class="button">
                         <h3>Search freshbuilds</h3>
@@ -1370,7 +1425,7 @@ height:19px; cursor: pointer;">
                     </h3>
                 </div>
                 <div id="second-box">
-                    <img class="third-image" src="/images/Group 20304.png" alt="">
+                    <img class="third-image" src="/images/second logo.png" alt="">
                     <h4>John S. just closed on a new home with freshbuilds!</h4>
                 </div>
             </div>
@@ -1390,7 +1445,7 @@ height: 44px;">
                     <p>We monitor local construction activity and send you alerts when a new home with your criteria is
                         ready for its new owners.</p>
                 </div>
-                <img class="small-house" src="/images/Group 20954.png" alt="">
+                <img class="small-house" src="/images/housess last.png" alt="">
 
             </div>
             <!-- fifth-part -->
@@ -1470,7 +1525,7 @@ right:120px ;">
                     </div>
                 
                 </div>
-            <!-- </div>
+             </div>
             <div id="seven">
                 <div id="seven-child">
                     <div id="first-child">
@@ -1590,9 +1645,9 @@ height: 24px; cursor: pointer;" >
                     </div>
                     <hr>
                 </div>
-                <img class="faq-house" src="/images/faq_houses.png" alt="" >
+                <img class="faq-house" src="/images/second-last.png" alt="" >
             </div>
-            <!--  
+        
             <footer>
                 <div class="last">
 
@@ -1606,13 +1661,14 @@ height: 24px; cursor: pointer;" >
                     </div>
                 </div>
                 <div class="finish">
-                    <div class="last-cont" style="display: flex; gap: 25px;">
+                    <div class="last-cont" style="display: flex; gap: 25px; margin-top: -15px;">
                         <h1>Privacy Policy</h1>
                         <h2>Terms of Service</h2>
                         <h3>Copyright © 2022. All Rights Reserved.</h3>
                     </div>
-                    <img src="/images/Group 20245.png" alt="" style="cursor: pointer;">
+                    <img src="/images/3533.png" alt="" style="cursor: pointer;width: 35px;
+                    height: 33px;">
                 </div>
-            </footer> -->
+            </footer> 
 </body>
 </html>
