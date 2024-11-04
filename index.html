@@ -6,6 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home design page</title>
     <style>
+       @media screen and (min-width: 1442px) {
+            .maincontainer {
+   min-width: -webkit-fill-available !important;  
+}
+.hearder-part-second {
+    display: flex !important;
+    justify-content: center;
+}
+.second {
+    min-width: -webkit-fill-available;
+    justify-content: center !important;
+    padding-left: 721px !important;
+    padding-right: 0 !important;
+}
+.forth {
+    min-width: -webkit-fill-available;
+    justify-content: center;
+}
+.fifth {
+    min-width: -webkit-fill-available;
+    justify-content: center;
+    padding-left: 0px !important;
+}
+#six {
+    min-width:-webkit-fill-available ;
+}
+#seven {
+    min-width:-webkit-fill-available;
+}
+#eight {
+    min-width:-webkit-fill-available ;
+}
+footer {
+   min-width:-webkit-fill-available ;
+}
+.finish {
+    justify-content: center !important;
+    padding: 0!important;
+    gap: 699px;
+}
+
+         }
  @media screen and (max-width: 1230px) {
     #seven {
         padding: 0 10px 0 10px;
@@ -14,11 +56,18 @@
     }
  }
  @media screen and (max-width: 1115px) {
-    .small-house {
-        bottom: 0 !important;
-    }
+  
     .fifth {
         margin-top: 20px !important;
+    }
+    
+}
+@media screen and (max-width: 1234px) {
+    .forth {
+        justify-content: center !important;
+    }
+    .small-house {
+        bottom: 0 !important;
     }
 }
  
@@ -160,7 +209,10 @@ justify-content: center;
     max-width: 100% !important;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
+
+
 .forth {
     padding-left: 26px !important;
     padding-right: 26px;
@@ -196,8 +248,6 @@ justify-content: center;
 .eight-ten {
     height: auto !important;
 }
-
-
         }
     
         @media screen and (max-width: 565px) {
@@ -208,6 +258,12 @@ justify-content: center;
         @media screen and (max-width: 560px) {
           .eight-para h1 {
             font-size: 19px !important;
+          }
+          #seven-child {
+            gap: 20px !important;
+          }
+          .eight-para {
+            padding-top: 0px !important;
           }
           .six-first-para {
             max-width: 100% !important;
@@ -224,6 +280,7 @@ align-content: center;
           .eight-para h1 {
 font-size: 19px !important;
 line-height: 33px !important;
+margin-bottom: 0 ;
           }
 .first-heading h1 {
     line-height: 37.4px !important;
@@ -291,11 +348,12 @@ height: auto !important;
 }
 .second h3 {
     height: auto !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
 }
 .forth {
-        max-width: 93% !important;
+        max-width: 100% !important;
         padding-left: 11px !important;
+        padding-right: 11px !important;
 }
 .small-house {
     height: auto ;
@@ -341,7 +399,7 @@ height: auto !important;
     }
   
     .eight-para {
-        padding-left: 17px !important;
+        padding-left: 10px !important;
     }
     #large-pic {
         max-width: 313px !important;
@@ -364,15 +422,42 @@ height: auto !important;
         max-width: 263px !important;
     }
     .fifth {
-        margin-top: 55px !important;
+        margin-top: 80px !important;
     }
     #six {
-        margin-bottom: 45px;
+        margin-bottom: 30px;
     }
     .eight-ten {
         margin-top: 69px;
     }
         } 
+        @media screen and (max-width: 376px)  {
+            .first-heading h1 {
+        line-height: 29.4px !important;
+        font-size: 21px !important;
+        margin-top: 31px !important;
+    }
+    .first-heading h2 {
+        font-size: 16px !important;
+    }
+    .first-heading b{
+        font-size: 20px !important;
+    }
+    .first-heading span {
+        font-size: 22px !important;
+    }
+    #second-first #sapn {
+        font-size: 20px !important;
+    }
+    #second-first #second {
+    font-size: 22px !important;
+        }
+        #second-first #span {
+            font-size: 21px !important;
+
+    }
+}
+
        
         @font-face {
             font-family: "Airbnb cereal APP";
@@ -461,7 +546,7 @@ height: auto !important;
             font-family: "Airbnb Cereal App";
             font-size: 42px;
             font-weight: 800;
-            cursor: pointer;
+            cursor: default;
             line-height: 50.4px;
             text-align: center;
             color: #3E8180;
@@ -493,7 +578,7 @@ text-align: left;
         .first-heading b {
             font-family: "Avenir";
 font-size: 24px;
-font-weight: bolder;
+font-weight: 800;
 line-height: 32.78px;
 text-align: left;
 
@@ -593,6 +678,7 @@ text-align: left;
             height: 35px;
             width: 35px;
             padding-left: 16px;
+            cursor: pointer;
         }
 
         .forth {
@@ -699,6 +785,10 @@ border: 2px solid #5CCAAB;
             bottom: 30px;
             height: 234px;
             object-fit: contain;
+            cursor: pointer;
+        }
+        .housess {
+            cursor: pointer;
         }
 
         .fifth {
@@ -1304,6 +1394,9 @@ margin-top: 12px;
 text-align: left;
 color: #322C4E;
         }
+        .image-circle {
+            cursor: pointer;
+        }
         #second-last-image {
             max-width: 162px;
 height: 18px;
@@ -1467,7 +1560,7 @@ text-align: left;
 color: #9B9B9B;
         }
 
-
+     
 
     </style>
 </head>
@@ -1483,7 +1576,7 @@ height:19px; cursor: pointer;">
             <!-- second-part -->
             <div class="hearder-part-second">
                 <div class="second-image">
-                    <img class="house" src="/images/hero_houses.png" alt="">
+                    <img class="house" src="/images/new hero_houses.png" alt="" style="width: 332px; cursor: pointer; ">
                 </div>
                 <div class="first-heading">
                     <h1>Discover New Construction Homes
