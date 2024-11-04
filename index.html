@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home design page</title>
     <style>
-       @media screen and (min-width: 1442px) {
+       /* @media screen and (min-width: 1442px) {
             .maincontainer {
    min-width: -webkit-fill-available !important;  
 }
@@ -47,7 +47,7 @@ footer {
     gap: 699px;
 }
 
-         }
+         } */
  @media screen and (max-width: 1230px) {
     #seven {
         padding: 0 10px 0 10px;
@@ -249,6 +249,11 @@ justify-content: center;
     height: auto !important;
 }
         }
+        @media screen and (max-width: 1291px) {
+            #seven-child {
+                gap: 30px !important;
+            }
+        } 
     
         @media screen and (max-width: 565px) {
             .first-heading h1 {
@@ -258,7 +263,8 @@ justify-content: center;
         @media screen and (max-width: 560px) {
           .eight-para h1 {
             font-size: 19px !important;
-          }
+          } 
+          
           #seven-child {
             gap: 20px !important;
           }
@@ -463,6 +469,10 @@ height: auto !important;
             font-family: "Airbnb cereal APP";
             src: url("/fonts/AirbnbCereal_W_Bd.otf");
         }
+        @font-face {
+            font-family: "Aviner bold";
+            src: url("/fonts/AvenirLTStd-Medium.otf");
+        }
 
         @font-face {
             font-family: "Airbnb midium";
@@ -483,11 +493,19 @@ height: auto !important;
             font-family: "Avenir";
             src: url("/fonts/AvenirLTStd-Light.otf");
         }
+        @font-face {
+            font-family: "Avenir bold";
+            src: url("/fonts/AvenirLTStd-Heavy.otf");
+        }
+        @font-face {
+            font-family: "Avenir lite";
+            src: url("/fonts/AvenirLTStd-Book.otf");
+        }
 
         body {
             padding: 0;
             margin: 0;
-            background-color: #f1f1f1;
+            /* background-color: #f1f1f1; */
         }
 
         .maincontainer {
@@ -519,7 +537,7 @@ height: auto !important;
             font-weight: 700;
             line-height: 20.83px;
             text-align: center;
-            cursor: pointer;
+            cursor: default;
             color: #322C4E;
         }
 
@@ -565,10 +583,10 @@ height: auto !important;
             line-height: 26.04px;
             text-align: center;
             color: #322C4E;
-            cursor: pointer;
+            cursor: default;
         }
         .first-heading span {
-            font-family: "Avenir";
+            font-family: "Avenir lite";
 font-size: 24px;
 font-weight: 400;
 line-height: 32.78px;
@@ -576,7 +594,7 @@ text-align: left;
 
         }
         .first-heading b {
-            font-family: "Avenir";
+            font-family: "Avenir bold";
 font-size: 24px;
 font-weight: 800;
 line-height: 32.78px;
@@ -627,7 +645,7 @@ text-align: left;
             line-height: 39px;
             letter-spacing: 0.0041em;
             text-align: center;
-            cursor: pointer;
+            cursor: default;
         }
 
         #second-first #span {
@@ -671,22 +689,24 @@ text-align: left;
             text-align: left;
             color: #322C4E;
             margin: 0;
-            cursor: pointer;
+            cursor: default;
         }
 
         .third-image {
             height: 35px;
             width: 35px;
             padding-left: 16px;
-            cursor: pointer;
+            cursor: default;
         }
 
         .forth {
             max-width: 1440px;
             display: flex;
             flex-wrap: wrap;
-            gap: 24px;
-            padding-left: 123px;
+            /* gap: 24px; */
+            height: 274px;
+            /* padding-left: 123px; */
+            justify-content: center;
             margin-top: 54px;
         }
 
@@ -699,18 +719,24 @@ text-align: left;
             flex-wrap: wrap;
             border: 2px solid white;
             flex-direction: column;
-            padding: 52px 20px 20px 26px;
+            padding: 50px 20px 20px 26px;
         }
         #first-box:hover{
             border: 2px solid #5CCAAB;
-            cursor: pointer;
+            cursor: default;
+        }
+        .new-home {
+            width: 778px;
+    display: flex;
+    gap: 24px;
+    height: 270px;
         }
 
         #first-box h5 {
             max-width: 315.25px;
             height: 26px;
             margin: 0;
-            cursor: pointer;
+            cursor: default;
             font-family: "Airbnb Cereal App";
             font-size: 22px;
             font-weight: 800;
@@ -725,7 +751,7 @@ text-align: left;
         #first-box p {
             max-width: 315px;
             height: 75px;
-            cursor: pointer;
+            cursor: default;
             margin: 0;
             font-family: "Airbnb small";
             font-size: 16px;
@@ -737,19 +763,19 @@ text-align: left;
         }
 
         #third-box {
-            max-width: 309px;
-            border-radius: 10px;
-            background: #FFFFFF;
-            box-shadow: 0px 4px 44px 0px #0E15321A;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            border: 2px solid white;
-            padding: 52px 29px 26px 27px;
+            max-width: 336px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 44px 0px #0E15321A;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    flex-direction: column;
+    padding: 50px 20px 20px 26px;
         }
         #third-box:hover {
 border: 2px solid #5CCAAB;
-            cursor: pointer;
+            cursor: default;
         }
 
         #third-box h5 {
@@ -780,15 +806,15 @@ border: 2px solid #5CCAAB;
         }
 
         .small-house {
-            margin-left: 61px;
             position: relative;
-            bottom: 30px;
-            height: 234px;
+            bottom: 85px;
+           right: 41px;
+            width: 412px;
             object-fit: contain;
-            cursor: pointer;
+            cursor: default;
         }
         .housess {
-            cursor: pointer;
+            cursor: default;
         }
 
         .fifth {
@@ -796,7 +822,8 @@ border: 2px solid #5CCAAB;
             display: flex;
             flex-wrap: wrap;
             gap: 24px;
-            padding-left: 289px;
+          padding-right: 400px;
+          justify-content: flex-end;
             margin-top: 36px;
         }
 
@@ -810,7 +837,7 @@ border: 2px solid #5CCAAB;
             flex-direction: column;
             border: 2px solid #FFFFFF;
             padding: 52px 25px 20px 25px;
-            cursor: pointer;
+            cursor: default;
         }
         #six-box:hover {
             border: 2px solid #5CCAAB;
@@ -820,6 +847,7 @@ border: 2px solid #5CCAAB;
             max-width: 315.25px;
             height: 26px;
             margin: 0;
+            cursor: default;
             font-family: "Airbnb Cereal App";
             font-size: 22px;
             font-weight: 800;
@@ -837,6 +865,7 @@ border: 2px solid #5CCAAB;
             font-family: "Airbnb small";
             font-size: 16px;
             font-weight: 400;
+            cursor: default;
             line-height: 24px;
             letter-spacing: 0.0041em;
             text-align: left;
@@ -847,7 +876,8 @@ border: 2px solid #5CCAAB;
             max-width: 1440px;   
             margin-top: 103px;
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-end;
+            padding-right: 231px;
 
         }
 
@@ -856,12 +886,13 @@ border: 2px solid #5CCAAB;
             height: 693px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: end;
+            gap: 50px;
         }
 
         .second-para {
             max-width: 459px;
-            margin-top: 94px;
+            margin-top: 73px;
         }
 
         .second-para h1 {
@@ -874,7 +905,7 @@ border: 2px solid #5CCAAB;
             letter-spacing: 0.0041em;
             text-align: left;
             margin: 0;
-            cursor: pointer;
+            cursor: default;
         }
 
         .second-para span {
@@ -900,7 +931,7 @@ border: 2px solid #5CCAAB;
         .second-para h2 {
             max-width: 454px;
             height: 101px;
-            cursor: pointer;
+            cursor: default;
             font-family: "Airbnb small";
             font-size: 16px;
             font-weight: 400;
@@ -908,7 +939,7 @@ border: 2px solid #5CCAAB;
             letter-spacing: 0.0041em;
             text-align: left;
             color: #0E1532;
-            margin-bottom: 37px;
+            margin-bottom: 39px;
         }
 
         #seven {
@@ -927,9 +958,9 @@ border: 2px solid #5CCAAB;
 
         #first-child {
             max-width: 426px;
-            cursor: pointer;
+            cursor: default;
             /* height: 179px; */
-            padding: 16px 23px 15px 22px;
+            padding: 16px 21px 15px 20px;
             border-radius: 10px;
             opacity: 0px;
             background: #FFFFFF;
@@ -1001,7 +1032,7 @@ border: 2px solid #5CCAAB;
         .eight-para h1 {
             max-width: 639px;
             height: 79px;
-            cursor: pointer;
+            cursor:default;
             font-family: "Airbnb midium";
             font-size: 26px;
             font-weight: 500;
@@ -1123,7 +1154,7 @@ border: 2px solid #5CCAAB;
             font-size: 26px;
             font-weight: 500;
             line-height: 39px;
-            cursor: pointer;
+            cursor: default;
             letter-spacing: 0.0041em;
             text-align: left;
             color: #322C4E;
@@ -1165,7 +1196,7 @@ border: 2px solid #5CCAAB;
             height: 21px;
             font-family: "Airbnb midium";
             margin: 0;
-            cursor: pointer;
+            cursor: default;
             font-size: 16px;
             font-weight: 500;
             line-height: 20.83px;
@@ -1192,7 +1223,7 @@ border: 2px solid #5CCAAB;
         #second-lines h3 {
             max-width: 575px;
             height: 21px;
-            cursor: pointer;
+            cursor: default;
             font-family: "Airbnb midium";
             margin: 0;
             font-size: 16px;
@@ -1231,6 +1262,7 @@ border: 2px solid #5CCAAB;
             text-align: left;
             color: #ffffff;
             margin: 0;
+            cursor: default;
         }
 
         .end span {
@@ -1273,7 +1305,7 @@ border: 2px solid #5CCAAB;
             flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
-            cursor: pointer;
+            cursor: default;
         }
 
         .gmail h4 {
@@ -1294,6 +1326,7 @@ border: 2px solid #5CCAAB;
             margin-top: 40px;
             display: flex;
             align-items: center;
+            cursor: default;
             justify-content: space-between;
             /* border: 1px solid red; */
             padding-left: 124px;
@@ -1303,7 +1336,7 @@ border: 2px solid #5CCAAB;
         .finish h1 {
             width: 87px;
             height: 18px;
-            cursor: pointer;
+            cursor: default;
             margin: 0;
             font-family: "Airbnb small";
             font-size: 14px;
@@ -1317,7 +1350,7 @@ border: 2px solid #5CCAAB;
             width: 107px;
             height: 18px;
             margin: 0;
-            cursor: pointer;
+            cursor: default;
             font-family: "Airbnb small";
             font-size: 14px;
             font-weight: 400;
@@ -1333,14 +1366,14 @@ border: 2px solid #5CCAAB;
             font-family: "Airbnb small";
             font-size: 14px;
             font-weight: 400;
-            cursor: pointer;
+            cursor: default;
             line-height: 18.23px;
             text-align: center;
             color: #FFFFFF;
         }
         .blue-image{
            width: 455px;
-height: 455px;
+height: 467px;
 background-color: #5CCAAB;
 border-radius: 230px;
 position: relative;
@@ -1353,6 +1386,7 @@ box-shadow: 0px 3px 30px 0px #2D27471A;
 border-radius: 10px;
 position:absolute;
 left: 60px;
+cursor: default;
 bottom: -3px;
         }
         #last {
@@ -1378,14 +1412,12 @@ line-height: 15.62px;
 display: flex;
 text-align: center;
 color: #FFFFFF;
-cursor: pointer;
         }
         #image-lastt h4 {
             width: 160px;
 height: 21px;
 margin: 0;
 padding-left: 20px;
-cursor: pointer;
 font-family: "Airbnb midium";
 font-size: 16px;
 font-weight: 700;
@@ -1411,7 +1443,6 @@ justify-content: space-between;
             width: 29px;
 height: 18px;
 margin: 0;
-cursor: pointer;
 font-family: "Airbnb small";
 font-size: 14px;
 font-weight: 400;
@@ -1423,7 +1454,6 @@ color: #686868;
             width: 33px;
             height: 18px;
             margin: 0;
-            cursor: pointer;
             font-family: "Airbnb small";
 font-size: 14px;
 font-weight: 400;
@@ -1437,7 +1467,6 @@ height: 18px;
 font-family: "Airbnb small";
 font-size: 14px;
 font-weight: 400;
-cursor: pointer;
 margin: 0;
 line-height: 18.23px;
 text-align: left;
@@ -1452,7 +1481,6 @@ font-family: "Airbnb midium";
 padding-left: 22px;
 font-size: 18px;
 font-weight: 700;
-cursor: pointer;
 line-height: 23.44px;
 text-align: left;
 color: #322C4E;
@@ -1462,7 +1490,6 @@ color: #322C4E;
             height: 18px;
             font-family: "Airbnb small";
 font-size: 14px;
-cursor: pointer;
 font-weight: 400;
 line-height: 18.23px;
 text-align: left;
@@ -1485,7 +1512,6 @@ top: 1643px;
 left: 1046px;
 gap: 0px;
 opacity: 0px;
-cursor: pointer;
 font-family: "Airbnb small";
 font-size: 14px;
 font-weight: 700;
@@ -1507,7 +1533,6 @@ margin: 0;
         #neigh h2 {
             width: 94px;
 height: 18px;
-cursor: pointer;
 font-family: "Airbnb small";
 font-size: 14px;
 font-weight: 400;
@@ -1523,7 +1548,6 @@ background-color: #5CCAAB;
 border-radius: 20px;
 display: flex;
 margin: 0;
-cursor: pointer;
 justify-content: center;
 align-items: center;
         }
@@ -1553,12 +1577,12 @@ height: 18px;
 font-family: "Airbnb small";
 font-size: 14px;
 font-weight: 400;
-cursor: pointer;
 margin: 0;
 line-height: 18.23px;
 text-align: left;
 color: #9B9B9B;
         }
+      
 
      
 
@@ -1570,13 +1594,13 @@ color: #9B9B9B;
         <div class="first">
             <div class="header">
                 <img class="first-image" src="/images/Logo.png" alt="" style="width:125px ;
-height:19px; cursor: pointer;">
+height:19px; cursor: default;">
                 <h1>1-844-769-6377</h1>
             </div>
             <!-- second-part -->
             <div class="hearder-part-second">
                 <div class="second-image">
-                    <img class="house" src="/images/new hero_houses.png" alt="" style="width: 332px; cursor: pointer; ">
+                    <img class="house" src="/images/new hero_houses.png" alt="" style="width: 332px; cursor: default; ">
                 </div>
                 <div class="first-heading">
                     <h1>Discover New Construction Homes
@@ -1602,6 +1626,8 @@ height:19px; cursor: pointer;">
             </div>
             <!-- forth-part -->
             <div class="forth">
+                <div class="new-home">
+
                 <div id="first-box">
                     <img src="/images/Group 20280.png" alt="" style="width: 38px;
 height: 44px;">
@@ -1616,7 +1642,9 @@ height: 44px;">
                     <p>We monitor local construction activity and send you alerts when a new home with your criteria is
                         ready for its new owners.</p>
                 </div>
-                <img class="small-house" src="/images/housess last.png" alt="">
+            </div>
+
+                <img class="small-house" src="/images/value_houses (1).png" alt="">
 
             </div>
             <!-- fifth-part -->
@@ -1836,7 +1864,7 @@ height: 24px; cursor: pointer;" >
                         <h2>Terms of Service</h2>
                         <h3>Copyright © 2022. All Rights Reserved.</h3>
                     </div>
-                    <img src="/images/3533.png" alt="" style="cursor: pointer;width: 35px;
+                    <img src="/images/3533.png" alt="" style="width: 35px;
                     height: 33px;">
                 </div>
             </footer> 
