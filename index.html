@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home design page</title>
     <style>
-       /* @media screen and (min-width: 1442px) {
+       @media screen and (min-width: 1442px) {
             .maincontainer {
    min-width: -webkit-fill-available !important;  
 }
@@ -22,7 +22,6 @@
 }
 .forth {
     min-width: -webkit-fill-available;
-    justify-content: center;
 }
 .fifth {
     min-width: -webkit-fill-available;
@@ -47,7 +46,7 @@ footer {
     gap: 699px;
 }
 
-         } */
+         } 
  @media screen and (max-width: 1230px) {
     #seven {
         padding: 0 10px 0 10px;
@@ -55,12 +54,16 @@ footer {
         overflow: hidden;
     }
  }
- @media screen and (max-width: 1290px) {
+ @media screen and (max-width: 1291px) {
     .forth {
-        padding-left:99px;
+        padding-left:79px;
+    }
+    .small-house {
+        width: 396px !important;
     }
     .fifth {
-        padding-right: 295px !important;
+        padding-right: 283px !important;
+        margin-top: 32px !important;
     }
     #six {
         padding-right: 165px !important;
@@ -68,6 +71,25 @@ footer {
       #seven-child {
 padding-right: 19px !important;
         gap: 30px !important;
+            }
+            .blue-image{
+                height: 462px !important;
+            }
+            #forth-button {
+                margin-top: 28px !important;
+            }
+            #second-first h3 {
+                padding-right: 21px !important;
+            }
+            #first-child h4 {
+                margin-top: 4px !important;
+                margin-bottom: 9px !important;
+            }
+            #eight {
+                padding-left: 19px !important;
+            }
+            #eleven-box {
+                width: 270px !important;
             }
         }
 
@@ -94,9 +116,12 @@ padding-right: 19px !important;
  gap: 15px !important;
 
 }
+.ten-para  {
+    margin-bottom: 10px;
+}
 .finish {
-    padding-left: 38px !important;
-    padding-left: 79px !important;
+    padding-right: 179px !important;
+    padding-left: 39px !important;
 }
 #second-first {
 padding-right: 0px !important;
@@ -481,43 +506,36 @@ height: auto !important;
 }
 
        
-        @font-face {
+      @font-face {
             font-family: "Airbnb cereal APP";
             src: url("/fonts/AirbnbCereal_W_Bd.otf");
         }
         @font-face {
-            font-family: "Aviner bold";
-            src: url("/fonts/AvenirLTStd-Medium.otf");
-        }
-
-        @font-face {
             font-family: "Airbnb midium";
             src: url("/fonts/AirbnbCereal_W_Md.otf");
         }
-
         @font-face {
             font-family: "Airbnb small";
-            src: url("/fonts/AirbnbCereal_W_Lt.otf");
+            src: url("/fonts/AirbnbCereal_W_Bk.otf");
         }
-
         @font-face {
-            font-family: "Airbnb lite";
-            src: url("/fonts/AvenirLTStd-Light.otf");
-        }
-       
-        @font-face {
-            font-family: "Avenir";
+            font-family: "Avenir lite";
             src: url("/fonts/AvenirLTStd-Light.otf");
         }
         @font-face {
             font-family: "Avenir bold";
-            src: url("/fonts/AvenirLTStd-Heavy.otf");
+            src: url("/fonts/AvenirLTStd-Roman.otf");
         }
         @font-face {
-            font-family: "Avenir lite";
-            src: url("/fonts/AvenirLTStd-Book.otf");
+            font-family: "Avenir midium";
+            src: url("/fonts/AvenirLTStd-Roman.otf");
         }
 
+        @font-face {
+            font-family: "Avenir";
+            src: url("/fonts/AvenirLTStd-Book.otf");
+        }
+    
         body {
             padding: 0;
             margin: 0;
@@ -583,7 +601,7 @@ height: auto !important;
             cursor: default;
             line-height: 50.4px;
             text-align: center;
-            color: #3E8180;
+            color: #3b8381;
             margin-top: 53px;
             margin-bottom: 0;
         
@@ -598,12 +616,12 @@ height: auto !important;
             font-weight: 500;
             line-height: 26.04px;
             text-align: center;
-            color: #322C4E;
+            color: #000000;
             cursor: default;
         }
         .first-heading span {
             font-family: "Avenir lite";
-font-size: 24px;
+font-size: 25px;
 font-weight: 400;
 line-height: 32.78px;
 text-align: left;
@@ -630,10 +648,11 @@ text-align: left;
 
         .button h3 {
             font-family: "Airbnb small";
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 700;
             line-height: 20.83px;
             text-align: center;
+            letter-spacing: 1.0px;
             color: #ffffff;
         }
 
@@ -665,11 +684,11 @@ text-align: left;
         }
 
         #second-first #span {
-            font-family: "Avenir";
+            font-family: "Avenir midium";
             font-size: 26px;
             font-weight: 800;
             line-height: 39px;
-            letter-spacing: 0.0041em;
+            letter-spacing: 1.41px;
             text-align: center;
             color: #3E8180;
         }
@@ -719,9 +738,7 @@ text-align: left;
             max-width: 1440px;
             display: flex;
             flex-wrap: wrap;
-            /* gap: 24px; */
             height: 274px;
-            /* padding-left: 123px; */
             justify-content: center;
             margin-top: 54px;
         }
@@ -1003,7 +1020,7 @@ border: 2px solid #5CCAAB;
         #first-child h5 {
             max-width: 258.72px;
             height: 21px;
-            font-family: "Airbnb midium";
+            font-family: "Airbnb small";
             font-size: 16px;
             font-weight: 700;
             line-height: 20.83px;
@@ -1271,8 +1288,8 @@ border: 2px solid #5CCAAB;
 
         .end .build {
             font-family: "Avenir";
-            font-size: 20px;
-            font-weight: 900;
+            font-size: 19px;
+            font-weight: 800;
             line-height: 39px;
             letter-spacing: 0.0041em;
             text-align: left;
@@ -1282,9 +1299,9 @@ border: 2px solid #5CCAAB;
         }
 
         .end span {
-            font-family: "Avenir";
+            font-family: "Avenir lite";
             font-size: 20px;
-            font-weight: 400;
+            font-weight: 100;
             line-height: 39px;
             letter-spacing: 0.0041em;
             text-align: left;
@@ -1302,6 +1319,7 @@ border: 2px solid #5CCAAB;
             width: 189px;
             display: flex;
             margin-top: -8px;
+            margin-left: 9px;
         }
 
         .gmail h5 {
@@ -1313,7 +1331,7 @@ border: 2px solid #5CCAAB;
             line-height: 20.83px;
             text-align: center;
             color: #FFFFFF;
-            margin: 16px 0 8px 0;
+            margin: 21px 0 8px 0;
         }
 
         .gmail {
@@ -1359,7 +1377,7 @@ border: 2px solid #5CCAAB;
             font-weight: 400;
             line-height: 18.23px;
             text-align: left;
-            color: #FFFFFF;
+            color: #d9d7de;
         }
 
         .finish h2 {
@@ -1372,7 +1390,7 @@ border: 2px solid #5CCAAB;
             font-weight: 400;
             line-height: 18.23px;
             text-align: left;
-            color: #FFFFFF;
+            color:#d9d7de;
         }
 
         .finish h3 {
@@ -1385,7 +1403,7 @@ border: 2px solid #5CCAAB;
             cursor: default;
             line-height: 18.23px;
             text-align: center;
-            color: #FFFFFF;
+            color: #d9d7de;
         }
         .blue-image{
            width: 455px;
@@ -1524,11 +1542,7 @@ margin: 0;
         .last-contt h4 {
             width: 77px;
 height: 18px;
-top: 1643px;
-left: 1046px;
-gap: 0px;
-opacity: 0px;
-font-family: "Airbnb small";
+font-family: "Airbnb midium";
 font-size: 14px;
 font-weight: 700;
 line-height: 18.23px;
@@ -1734,11 +1748,7 @@ right:120px ;">
     </div>
 
 </div>
-
-
-
                     </div>
-                
                 </div>
              </div>
             <div id="seven">
@@ -1867,7 +1877,7 @@ height: 24px; cursor: pointer;" >
                 <div class="last">
                     <div class="gmail">
                         <div class="end">
-                            <img src="/images/Grouplast.png" alt="">
+                            <img src="/images/Group 4x.png" alt="" style="width: 20px; height: 18px;">
                             <h3><span>fresh</span><span class="build">builds</span></h3>
                         </div>
                         <h5>contact@freshbuilds.com</h5>
