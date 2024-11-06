@@ -8,6 +8,7 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
   .forth {
     min-width: -webkit-fill-available;
   }
@@ -194,7 +195,9 @@
     max-width: 618px !important;
   }
   .first-heading h1 {
-    font-size: 37px !important;
+    font-size: 34px !important;
+    margin-top: 30px !important;
+    line-height: 46.4px !important;
   }
   .second {
     margin-top: 15px !important;
@@ -261,13 +264,11 @@
   }
 }
 @media screen and (max-width: 1011px) {
-  .house {
-    display: none !important;
-  }
+
   .forth {
     padding: 0 !important;
     flex-wrap: wrap !important;
-    height: 479px !important;
+    /* height: 479px !important; */
   }
   .small-house {
     max-width: 404px !important;
@@ -281,9 +282,7 @@
     padding-right: 10px !important;
     justify-content: end !important;
   }
-  .hearder-part-second {
-    justify-content: center;
-  }
+
   .eight-para {
     max-width: 100% !important;
     padding-left: 10px !important;
@@ -352,9 +351,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .second-image {
-    display: none;
-  }
+ 
   .eight-para {
     margin-right: 0px !important;
     margin-top: 9px !important;
@@ -397,12 +394,14 @@
   .new-home {
     flex-wrap: wrap;
   }
-  .forth {
-    height: 747px !important;
-  }
+ 
   .fifth {
     flex-wrap: wrap !important;
   }
+  .small-house {
+    display: none;
+}
+
 }
 
 @media screen and (max-width: 786px) {
@@ -414,6 +413,9 @@
   .second {
     justify-content: center !important;
   }
+.responsive-image {
+    visibility: hidden;
+}
 }
 @media screen and (max-width: 565px) {
   .first-heading h1 {
@@ -438,11 +440,24 @@
     margin-top: 27px !important;
     font-size: 39px !important;
   }
-}
-@media screen and (max-width: 561px) {
   .forth {
-    height: 792px !important;
+    height: auto !important;
   }
+  .responsive-image {
+    max-width:100%;
+}
+
+}
+@media screen and (min-width: 574px) {
+    .responsive-image {
+        display:  none !important;
+    }
+} 
+
+@media screen and (max-width: 561px) {
+  /* .forth {
+    height: 792px !important;
+  } */
 }
 @media screen and (max-width: 560px) {
   #seven {
@@ -733,7 +748,7 @@ body {
 
 .hearder-part-second {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   max-width: 100%;
 }
 
