@@ -13,19 +13,27 @@
 .second {
     min-width: -webkit-fill-available;
     justify-content: center !important;
-    padding-left: 721px !important;
+    padding-left: 0 !important;
     padding-right: 0 !important;
 }
 .forth {
     min-width: -webkit-fill-available;
 }
+#first-box {
+    flex-direction:row !important;
+}
+#third-box {
+    flex-direction: row !important;
+}
 .fifth {
     min-width: -webkit-fill-available;
-    justify-content: center;
-    padding-left: 0px !important;
+    justify-content: center !important;
+    padding-right: 0px !important;
 }
 #six {
     min-width:-webkit-fill-available ;
+    padding:0 !important;
+    justify-content: center !important;
 }
 #seven {
     min-width:-webkit-fill-available;
@@ -41,6 +49,13 @@ footer {
     padding: 0!important;
     gap: 699px;
 }
+.hearder-part-second {
+    justify-content: center !important;
+}
+.header {
+    gap: 598px;
+    justify-content: center !important;
+}
          } 
       
          @media screen and (max-width: 1268px) {
@@ -52,12 +67,7 @@ footer {
             }
 
         }
-        @media screen and (max-width: 1260px) {
-            .fifth {
-                padding: 0 !important;
-               justify-content: center !important;
-            }
-        }
+      
  @media screen and (max-width: 1230px) {
     #seven {
         padding: 0 10px 0 10px;
@@ -65,6 +75,21 @@ footer {
         overflow: hidden;
     }
  }
+ @media screen and (max-width: 1219px) {
+    .next-box {
+        display: none !important;
+    }
+    .eight-para {
+        max-width: 92% !important;
+    }
+    .eight-para {
+        max-width: 856px !important;
+    }
+    #eight {
+        max-width: 100% !important;
+    }
+ }
+
  @media screen and (max-width: 1291px) {
     .forth {
         padding-left:79px;
@@ -77,7 +102,8 @@ footer {
         padding-right: 165px !important;
     } 
       #seven-child {
-padding-right: 19px !important;
+padding-right: 10px !important;
+padding-left: 10px !important;
         gap: 30px !important;
             }
             .blue-image{
@@ -100,11 +126,22 @@ padding-right: 19px !important;
                 width: 270px !important;
             }
         }  
-        @media screen and (max-width: 1281px) {
+        @media screen and (max-width: 1260px) {
             .fifth {
-                padding-right: 0px !important;
+                padding: 0 !important;
+               justify-content: center !important;
             }
-         }   
+            #six {
+                padding-right: 0px !important;
+                justify-content: center !important;
+            }
+            .six-first-para {
+                justify-content: center !important;
+            }
+            .housess {
+                right: 91px !important;
+            }
+        }  
  @media screen and (max-width: 1112px) {
   
     #first-box h5 {
@@ -126,13 +163,14 @@ padding-right: 19px !important;
     .new-home {
         height: auto !important;
     }
+    .fifth {
+        flex-wrap: nowrap !important;
+    }
 }
- 
+
 @media screen and (max-width: 1355px) {
     .eight-para {
- max-width: 100% !important;
  gap: 15px !important;
-
 }
 .ten-para  {
     margin-bottom: 10px;
@@ -148,6 +186,12 @@ padding-right: 0px !important;
     padding-right: 41px !important;
 }
 }
+@media screen and (max-width: 1219px) {
+.second {
+    padding-right: 16px !important;
+}
+}
+
         @media screen and (max-width: 1080px) { 
 .second-image {
     margin-top: 69px !important;
@@ -157,7 +201,11 @@ padding-right: 0px !important;
 }
 
 .first-heading {
-    max-width: 714px !important;
+    max-width: 618px !important;
+
+}
+.first-heading h1 {
+font-size: 37px !important;
 }
 .second{
     margin-top: 15px !important;
@@ -182,12 +230,10 @@ text-align: left;
     justify-content: center;
     padding: 0 12px 0 12px !important ;
 }
-.second-para {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-}
+
 .six-first-para {
     max-width: 100%;
+    padding-left: 20px !important;
     padding-right: 20px !important;
 }
 
@@ -195,7 +241,7 @@ text-align: left;
     padding-left: 30px !important;
 }
 .forth {
-    max-width: 99% !important;
+    max-width: 100% !important;
     justify-content: center;
 }
 
@@ -210,6 +256,9 @@ right: 0px !important;
 }
 #eleven-para {
 justify-content: center;
+}
+.finish {
+    padding: 0 39px !important;
 }
 
         }
@@ -230,12 +279,23 @@ justify-content: center;
             .house {
                 display: none !important;   
             }
-            
+            .forth{
+                padding: 0 !important;
+                flex-wrap: wrap !important;
+                height: 479px  !important;
+            }
+            .small-house {
+                max-width: 404px !important;
+                bottom: 49px !important;
+            right: 0px !important;
+            }
+         
+
             .second {
                 margin-top: 55px !important;
                 padding-left: 10px !important;
                 padding-right: 10px !important;
-                justify-content: center !important;
+                justify-content: end !important;
             }
             .hearder-part-second {
                 justify-content: center;
@@ -257,6 +317,24 @@ justify-content: center;
             .six-first-para {
     margin-bottom: 60px;
 }
+.second-para {
+    margin-top: 0px !important;
+}
+.six-first-para {
+    gap: 0px !important;
+}
+.eight-para {
+    padding-top: 0px !important;
+}
+.ten-para {
+    margin-bottom: 0px !important;
+}
+#seven {
+    margin-bottom: 31px !important;
+}
+.faq-house {
+    max-width: 365px !important;
+}
 
         }
         @media screen and (max-width: 906px) {  
@@ -264,7 +342,11 @@ justify-content: center;
     flex-wrap: wrap;
     height: auto !important;
     justify-content: center;
+max-width: 100% !important;
+padding: 0 19px !important;
 }
+
+             
 .blue-image {
     max-width: 100% !important;
     display: flex;
@@ -274,8 +356,8 @@ justify-content: center;
 
 
 .forth {
-    padding-left: 26px !important;
-    padding-right: 26px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
 }
 
 #seven {
@@ -307,17 +389,97 @@ justify-content: center;
 }
 .eight-ten {
     height: auto !important;
+    margin-right: 0px !important;
+margin-top: 65px !important;
 }
         }
-        @media screen and (max-width: 565px) {
+        @media screen and (max-width: 780px) {
+            .new-home {             
+                justify-content: center !important;
+            }
+            #third-box p {
+        height:auto !important;
+       }
+       .fifth {
+        margin-top: 56px !important;
+       }
+       #six-box p {
+        height: auto !important;
+       }
+        }
+        @media screen and (max-width: 769px) {
+            
+            .housess {
+                height: 332px !important;
+            }
+            #eight {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+            .new-home {
+                flex-wrap: wrap;
+            }
+            .forth {
+                height: 747px !important;
+            }
+            .fifth {
+                flex-wrap: wrap !important;
+              
+            }
+      
+        }
+         
+        @media screen and (max-width: 786px) {
+            .eight-ten {
+                margin-top: 0px !important;
+            }
+            
+        }
+        @media screen and (max-width: 788px) {
+            .second {
+justify-content: center !important;
+            }
+        }
+                @media screen and (max-width: 565px) {
             .first-heading h1 {
                 margin-top: 12px !important;
             }
+            .second h3 {
+    height: auto !important;
+    font-size: 24PX !important;
+}
+.second h3 #span {
+    font-size: 26.5px !important;
+}
+#second-first #second {
+    font-size: 25px !important;
+        }
+        }
+        @media screen and (max-width: 574px) {
+            .eight-para {
+                margin-bottom: 0px !important;
+            }
+            .first-heading h1 {
+                margin-top: 27px !important;
+                font-size: 39px !important;
+            }
+        }
+        @media screen and (max-width: 561px) {
+.forth {
+    height: 792px !important;
+}
         }
         @media screen and (max-width: 560px) {
-          .eight-para h1 {
-            font-size: 19px !important;
-          } 
+          #seven {
+            margin-bottom: 59px !important;
+          }
+          .first-heading b{
+        font-size: 20px !important;
+    }
+          #second-first h3 {
+            padding-right: 0px !important;
+            line-height: 23px !important;
+          }
           
           #seven-child {
             gap: 20px !important;
@@ -338,9 +500,12 @@ align-content: center;
           }
 
           .eight-para h1 {
-font-size: 19px !important;
-line-height: 33px !important;
-margin-bottom: 0 ;
+font-size: 17px !important;
+line-height: 21px !important;
+margin-bottom: 10px ;
+          }
+          .housess {
+            height: 299px !important;
           }
 .first-heading h1 {
     line-height: 37.4px !important;
@@ -356,6 +521,10 @@ margin-bottom: 0 ;
     max-width: 289px !important;
 }#second-line h3 {
     height: auto;
+}
+.six-first-para {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 .second-para {
         padding-left: 9px !important;
@@ -406,10 +575,7 @@ margin-bottom: 20px !important;
 #third-box p {
 height: auto !important;
 }
-.second h3 {
-    height: auto !important;
-    font-size: 20px !important;
-}
+
 .forth {
         max-width: 100% !important;
         padding-left: 11px !important;
@@ -482,43 +648,44 @@ height: auto !important;
         max-width: 263px !important;
     }
     .fifth {
-        margin-top: 80px !important;
+        margin-top: 0px !important;
     }
     #six {
-        margin-bottom: 30px;
+        margin-top: 67px !important;
     }
     .eight-ten {
         margin-top: 69px;
     }
+
+        } 
+        @media screen and (max-width: 403px) {
+            .small-house {
+                max-width:352px !important;
+             
+            }
+            @media screen and (max-width: 338px) {
+                .small-house {
+                    max-width: 321PX !important;
+                }
+            }
         } 
         @media screen and (max-width: 376px)  {
             .first-heading h1 {
         line-height: 29.4px !important;
-        font-size: 21px !important;
+        font-size: 22px !important;
         margin-top: 31px !important;
     }
     .first-heading h2 {
         font-size: 16px !important;
     }
-    .first-heading b{
-        font-size: 20px !important;
-    }
+   
     .first-heading span {
         font-size: 22px !important;
     }
     #second-first #sapn {
         font-size: 20px !important;
     }
-    #second-first #second {
-    font-size: 22px !important;
-        }
-        #second-first #span {
-            font-size: 21px !important;
-
-    }
-}
-
-       
+}  
       @font-face {
             font-family: "Airbnb cereal APP";
             src: url("/fonts/AirbnbCereal_W_Bd.otf");
@@ -1625,10 +1792,6 @@ line-height: 18.23px;
 text-align: left;
 color: #9B9B9B;
         }
-      
-
-     
-
     </style>
 </head>
 
@@ -1668,7 +1831,7 @@ height:19px; cursor: default;">
                 </div>
             </div>
             <!-- forth-part -->
-            <div class="forth">
+             <div class="forth">
                 <div class="new-home">
 
                 <div id="first-box">
