@@ -369,6 +369,16 @@
     margin-top: 65px !important;
   }
 }
+@media screen and (max-width: 882px) {
+    .first-heading h1 {
+        font-size: 29px !important;
+        margin-top: 30px !important;
+        line-height: 35.4px !important;
+    }
+    .eight-para {
+      background: #f1f1f1;
+    }
+}
 @media screen and (max-width: 780px) {
   .new-home {
     justify-content: center !important;
@@ -383,9 +393,20 @@
     height: auto !important;
   }
 }
+@media screen and (min-width: 752px) {
+    .responsive-image {
+        display:  none !important;
+    }
+}
 @media screen and (max-width: 769px) {
   .housess {
     height: 332px !important;
+  }
+  .second-image {
+    margin-top: 98px !important;
+  }
+  .house {
+    max-width: 269px !important;
   }
   #eight {
     padding-left: 10px !important;
@@ -401,9 +422,25 @@
   .small-house {
     display: none;
 }
-
+.hearder-part-second {
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+.house {
+    display: none !important;
+}
+.second-image {
+    display: none !important;
+}
+.first-heading h1 {
+    font-size:32px !important ;
+  }
+    .responsive-image {
+    max-width:100%;
 }
 
+}
+ 
 @media screen and (max-width: 786px) {
   .eight-ten {
     margin-top: 0px !important;
@@ -413,10 +450,9 @@
   .second {
     justify-content: center !important;
   }
-.responsive-image {
-    visibility: hidden;
+
 }
-}
+
 @media screen and (max-width: 565px) {
   .first-heading h1 {
     margin-top: 12px !important;
@@ -425,6 +461,7 @@
     height: auto !important;
     font-size: 24px !important;
   }
+  
   .second h3 #span {
     font-size: 26.5px !important;
   }
@@ -436,29 +473,15 @@
   .eight-para {
     margin-bottom: 0px !important;
   }
-  .first-heading h1 {
-    margin-top: 27px !important;
-    font-size: 39px !important;
-  }
+
   .forth {
     height: auto !important;
   }
-  .responsive-image {
-    max-width:100%;
-}
+ 
+
 
 }
-@media screen and (min-width: 574px) {
-    .responsive-image {
-        display:  none !important;
-    }
-} 
 
-@media screen and (max-width: 561px) {
-  /* .forth {
-    height: 792px !important;
-  } */
-}
 @media screen and (max-width: 560px) {
   #seven {
     margin-bottom: 59px !important;
@@ -498,7 +521,7 @@
   }
   .first-heading h1 {
     line-height: 37.4px !important;
-    font-size: 29px !important;
+    font-size: 27px !important;
   }
   .eigth-ten {
     margin-right: 0px !important;
