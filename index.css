@@ -12,12 +12,12 @@
   .forth {
     min-width: -webkit-fill-available;
   }
-  #first-box {
-    flex-direction: row !important;
-  }
-  #third-box {
-    flex-direction: row !important;
-  }
+ #first-box {
+  padding-bottom: 17px !important;
+ }
+ #third-box {
+  padding-bottom: 17px !important;
+ }
   .fifth {
     min-width: -webkit-fill-available;
     justify-content: center !important;
@@ -1625,7 +1625,7 @@ footer {
 }
 .blue-image {
   width: 455px;
-  height: 467px;
+  height: 461px;
   background-color: #5ccaab;
   border-radius: 230px;
   position: relative;
