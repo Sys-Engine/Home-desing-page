@@ -5,7 +5,7 @@
   .second {
     min-width: -webkit-fill-available;
     justify-content: center !important;
-    padding-left: 0 !important;
+    padding-left: 377px !important;
     padding-right: 0 !important;
   }
 
@@ -477,10 +477,6 @@
   .second {
     justify-content: center !important;
   }
-  .last-cont img {
-    display: none !important;
-  }
-
 }
 
 @media screen and (max-width: 565px) {
