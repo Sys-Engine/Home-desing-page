@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 1291px) {
   .forth {
-    padding-left: 79px;
+    padding-left: 78px;
   }
   .fifth {
     padding-right: 283px !important;
@@ -1343,7 +1343,7 @@ body {
   height: 25px;
   margin: auto;
   display: flex;
-  gap: 12px;
+  gap: 10px;
   align-items: center;
   /* border: 1px solid red; */
 }
